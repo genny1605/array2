@@ -164,7 +164,7 @@
             // 
             // btn_n2
             // 
-            this.btn_n2.Location = new System.Drawing.Point(179, 279);
+            this.btn_n2.Location = new System.Drawing.Point(174, 279);
             this.btn_n2.Name = "btn_n2";
             this.btn_n2.Size = new System.Drawing.Size(75, 23);
             this.btn_n2.TabIndex = 26;
@@ -204,9 +204,9 @@
             this.lbl_n9.AutoSize = true;
             this.lbl_n9.Location = new System.Drawing.Point(20, 375);
             this.lbl_n9.Name = "lbl_n9";
-            this.lbl_n9.Size = new System.Drawing.Size(72, 13);
+            this.lbl_n9.Size = new System.Drawing.Size(75, 13);
             this.lbl_n9.TabIndex = 30;
-            this.lbl_n9.Text = "numero conto";
+            this.lbl_n9.Text = "numero conto:";
             // 
             // Form1
             // 

@@ -17,7 +17,7 @@ namespace array2
         {
             InitializeComponent();
         }
-        string[] nomeCognome = new string[] { "rossi mario, bianchi luigi,belli giulia,dotti fabio,merli gianna,zeri giulio,botti maria" };
+        string[] nomeCognome = new string[] { "rossi mario", "bianchi luigi", "belli giulia", "dotti fabio", "merli gianna", "zeri giulio", "botti maria" };
         int[] numeroConto = new int[] { 11264, 99780, 00342, 03419, 34562, 09887, 02341 };
         int[] saldoConto = new int[] { 11534, -2345, 3451, 127, 45673, -13, 3452 };
        
@@ -30,8 +30,15 @@ namespace array2
             {
                 if (numeroConto[i] == numeroCercato)
                 {
-                    lbl_n5.Text =
+                    lbl_n9.Text =  saldoConto[i].ToString();
+                    lbl_n8.Text = nomeCognome[i];
+                    
+                    trovato= true;
                 }
+            }
+            if(trovato==false)
+            {
+                lbl_n9.Text = " mumero di conto non esisste";
             }
         }
     }
